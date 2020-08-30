@@ -339,7 +339,7 @@ void Control::enableAutosave(bool enable) {
     }
 
     if (enable) {
-        int timeout = settings->getAutosaveTimeout() * 60;
+        int timeout = settings->getAutosaveTimeout();
         this->autosaveTimeout = g_timeout_add_seconds(timeout, reinterpret_cast<GSourceFunc>(autosaveCallback), this);
     }
 }

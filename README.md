@@ -1,3 +1,5 @@
+A fork of xournalpp/xournalpp with minimum possible autosave duration changed from 1 minute to 1 second. The aim of this is to be able to share live pdf notes during a talk. A quick workaround for this is to use the autosave file to generate a pdf in the background using the 'xournalpp -p' command and upload the file to the cloud.
+
 # Xournal++
 
 [![Build Status](https://dev.azure.com/xournalpp/xournalpp/_apis/build/status/CI?branchName=master)](https://dev.azure.com/xournalpp/xournalpp/_build/latest?definitionId=1&branchName=master)

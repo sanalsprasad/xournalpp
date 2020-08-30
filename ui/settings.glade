@@ -315,7 +315,7 @@ If the file was not yet saved you can find it in your home directory, in ~/.xour
                                                     <property name="name">lbAutosaveTimeout2</property>
                                                     <property name="visible">True</property>
                                                     <property name="can_focus">False</property>
-                                                    <property name="label" translatable="yes">minutes</property>
+                                                    <property name="label" translatable="yes">seconds</property>
                                                   </object>
                                                   <packing>
                                                     <property name="expand">False</property>
